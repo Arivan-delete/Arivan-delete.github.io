@@ -44,6 +44,10 @@
     background-color: white;
     color: black;
 }
+
+.table .footer .title div {
+    text-align: center;
+}
   
 p {
     padding-left: 10px;
@@ -62,7 +66,8 @@ a {
 }
 
 h3 {
-    font-size: 25px;
+    padding-right: 10px;
+    font-size: 125%;
 }
   
 .table .content {
