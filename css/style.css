@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    border: 0;
 }
   
 .table .header .title, .table .footer .title, .table .content .main .two, .table .content .main .main_text .three, .table .content .main .main_text .five, .table .content .four {
@@ -132,4 +131,21 @@ h2 {
 
 .table .content .main .main_text .three div {
     text-align: center;
+    height: 50%;
+}
+
+.table .content .four div {
+    text-align: center;
+}
+
+.table .transform-area {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background-color: rgba(24, 24, 24, 0.8);
 }
