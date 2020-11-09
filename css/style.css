@@ -13,6 +13,9 @@
     text-align: right;
     vertical-align: middle;
 }
+.table .content .main .main_text .three .three2 div {
+    text-align: center;
+}
   
 .table .header {
     background-color: #a7b5da;
@@ -32,7 +35,7 @@
     float: right;
     color: white;
     font-size: 1.5em;
-    margin: 57px 10px 0px 0px;
+    margin: 30px 10px 57px 10px;
     height: 53px;
 }
   
@@ -67,6 +70,11 @@ a {
 
 h3 {
     padding-right: 10px;
+    font-size: 125%;
+}
+
+h2 {
+    padding-right: 25px;
     font-size: 125%;
 }
   
@@ -120,4 +128,8 @@ h3 {
   
 .table .header .title div {
     text-align: right;
+}
+
+.table .content .main .main_text .three div {
+    text-align: center;
 }
