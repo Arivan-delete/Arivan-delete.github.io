@@ -148,7 +148,7 @@ function task5() {
 }
 task5();
 
-function parser (str) {
+function checkHTML (str) {
     let result = str.matchAll(/<[^<>]+>/g),
         text = str.split(/<[^<>]+>/),
         stack = [],
@@ -218,7 +218,7 @@ function loadChanges(container) {
       let backup = container.innerHTML;
       let div = document.createElement('div');
 
-      container.innerHTML = parser(content);
+      container.innerHTML = checkHTML(content);
 
       let button = document.createElement('button');
       button.textContent = 'submit';
