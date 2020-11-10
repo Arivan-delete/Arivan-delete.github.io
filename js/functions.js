@@ -88,6 +88,12 @@ function task4() {
     let upper = document.getElementById('r1');
     let lower = document.getElementById('r2');
 
+    if(upper.checked == true){
+        lower.checked = false
+    } else {
+        upper.checked = false
+    }
+
     upper.addEventListener('click', () => {
         fourContent.textContent = toUpperCaseFirstLetters(fourContent.textContent);
         localStorage.setItem('isUpperCaseInForthBlock', 'true');
