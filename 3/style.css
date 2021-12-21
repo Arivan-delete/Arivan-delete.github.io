@@ -140,6 +140,7 @@ y {
     margin: auto;
     height: 300px;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .slider .item img {
@@ -186,6 +187,8 @@ y {
 
 .slider-dots {
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .slider-dots_item {
