@@ -152,7 +152,6 @@ y {
 
 .slider .prev, .slider .next {
     cursor: pointer;
-    position: absolute;
     top: 0;
     top: 50%;
     width: auto;
