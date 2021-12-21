@@ -65,7 +65,7 @@
 
     align-items: center;
     padding: 10px;
-
+    flex-direction: column;
 }
 
 .container sixth {
